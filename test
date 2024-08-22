@@ -1,6 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/asdoiaeqp9/White/main/list"))()
-if _KlM8nGhJ4a(game.Players.LocalPlayer) then
-Print("hi")
-else
-    game.Players.LocalPlayer:Kick("You are not whitelisted")
-end
+
