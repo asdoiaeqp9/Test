@@ -1,0 +1,5 @@
+if _KlM8nGhJ4a(game.Players.LocalPlayer) then
+Print("hi")
+else
+    game.Players.LocalPlayer:Kick("You are not whitelisted")
+end
