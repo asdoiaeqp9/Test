@@ -1,1 +1,42 @@
+local GzH4pL = loadstring(game:HttpGet("https://pastebin.com/raw/U70aBJUW"))()
+local J8K2lO = game:GetService("RbxAnalyticsService"):GetClientId()
 
+local Q3R9tY = {
+    [7237337550] = true, --SuperOldman69X
+    [583116786] = true, --Piercer
+    [7242082019] = true, --Arda
+    [7244962828] = true, --SBIKASBIKA
+    [7162991400] = true, --NC_Gurdian1
+    [7243740345] = true, --shiii
+    [4654827895] = true, --Haram
+    [4298015048] = true, --Feast
+    [3552067237] = true, --opro_ahmed
+    [6190239140] = true, --Ezzzzz_ClientNN
+    [7181624960] = true,
+    [1630903650] = true, --Tripp
+    [7066143246] = true, --carmelito07
+}
+
+local function Z9xP8lE4r(_G2hJ1kM)
+    return Q3R9tY[_G2hJ1kM.UserId]
+end
+
+local function KpL3mN()
+    for i,v in pairs(GzH4pL) do
+        if v == J8K2lO then
+            return true
+        end
+    end
+    return false
+end
+
+if KpL3mN() then
+    if Z9xP8lE4r(game.Players.LocalPlayer) then
+        print("Both HWID and UserID are whitelisted, script can load...")
+        -- rest of your script here
+    else
+        print("You are not whitelisted.")
+    end
+else
+    print("You are not whitelisted.")
+end
